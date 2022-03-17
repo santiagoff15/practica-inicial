@@ -3,16 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
+    <title>Trabajo práctico</title>
 </head>
 <body>
-    <h1>Titulo 1 </h1>
-    <p> Esto es un párrafo</p>
-    <h2>Titulo 2 </h2>
-    <h3>Titulo 3</h3>
-    <h4>Titulo 4 </h4>
-    <h5>Titulo 5</h5>
-    <h6>Titulo 6</h6>
+    <h1>Trabajo Práctico </h1>
+    <h2>"World Wide Web" ¿Qué significa? </h2>
+    <p>La "World Wide Web", tambíen conocida como WWW o tambíen como "La Web" es un sistema interconectado de páginas web públicas accesibles a traves de internet. La web no es lo mismo que el internet, lo que podriamos decir en ese caso es que la web està introducida en el internet</p>
+    <h2>¿Qué significa HTML y por qué se dice que es un lenguaje de marcas? </h2>
+    <p>Es el lenguaje de Marcado Hipertexto es el código que se utiliza para hacer una estructura y lanzarla como página web y dentro de ella con sus contenidos.
+        En HTML tenemos etiquetas y esas etiquetas son:</p>
+        <p>!–…–(Define un comentario)</p>
+        <p>a(Define un hipervínculo)</p>
+        <p>address(Define la información de contacto del autor / propietario del documento)</p>
+        <p>article(Define un artículo)</p>
+        <p>audio(Define contenido de sonido)</p>
+        <p>base(Especifica la base donde se abrirán todas las URL del documento)</p>
+        <p>bdo(Sobreescribe la dirección del texto)</p>
+        <p>body(Define el cuerpo del documento)</p>
+    <h3>¿Cómo es la anatomía de un elemento HTML</h3>
+    <p>Las partes principales del elemento son:
+       <p>1- La etiqueta de apertura: consiste en el nombre de un elemento (en este caso p), encerrado por parèntesis angulares (<>) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento.</p> 
+        <p>2- La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento.</p>
+        <p>3- El contenido: este es el contenido del elemento, que en este caso es sólo texto.</p>
+        <p>4- El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.</p>
+    </p>
 
+
+    <h3>¿Cuál es la anatomía básica del HTML</h3>
+    <p>La anatomía basuca de un archivo HTML es que todos los elementos individuales que nos trae HTML se combinen para hacer una serie de codigos que se junten para formar el mismo.
+        <p>Por un lado tenemos "!DOCTYPE html" Es un preámbulo requerido. Anteriormente, cuando HTML era joven (cerca de 1991/2), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno, lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo que a nadie le importa, pero que debe ser incluido para que todo funcione correctamente. Por ahora, eso es todo lo que necesitas saber.</p>
+        <p>"html" Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element).</p>
+        <p>"head" Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. Incluye cosas como palabras claveuna descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc.</p>
+        <p>"meta charset="utf-8"" Este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.</p>
+        <p>"title" establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.</p>
+        <p>"body" Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.</p>
+    </p>
+    <h2>¿Qué es y que función cumple el CSS?</h2>
+    <p>Las hojas de estilo en cascada (o mejor conocidas como "CSS") permiten crear páginas web atractivas. Vimos en HTML que los títulos se verán más grandes que el texto y los párrafos empezarán en una línea nueva y habrá un espacio entre ellos. Los enlaces aparecerán en un color diferente y subrayados para distinguirlos del resto del texto. Vienen predeterminados por el navegador y, en la práctica, son estilos muy básicos que el navegador aplica al HTML para asegurarse, básicamente, de que sean legibles incluso si el autor de la página no especifica un estilo explícito.
+        Sin embargo, Internet sería un lugar muy aburrido si todas las páginas web se vieran así. Usando CSS se pueden controlar con precisión cómo se ven los elementos HTML en el navegador, que presentará para las etiquetas de marcado el diseño que cada uno desee.
+        El CSS se puede usar para estilos de texto muy básicos como, por ejemplo, cambiar el color y el tamaño de los encabezados y los enlaces. Se puede utilizar para crear un diseño, como podría ser convertir una columna de texto en una composicion con un área de contenido principal y una barra lateral para información relacionada. Incluso se puede usar para crear efectos de animacion.
+    </p>
+    <h3>¿Cómo se incorpora el CSS dentro del HTML?</h3>
+    <p>para incorporar el CSS dentro del HTML podriamos vincular a un archivo de hoja a estilo separado. Otra cosa que podemos hacer es introducir "CSS" en el codigo de HTML. Luego tenemos otra forma, podemos agregar estilos en las lineas de los elementos en el HTML. Por otra parte tambien podemos importar los archivos en otras hojas de estilos existentes y por ultimo inyectamos css con JavaScript.</p>
+    <h3>¿Cuál es la anatomía de una regla CSS?</h3>
+    <p>El CSS es un lenguaje basado en reglas: cada usuario define las reglas que especifican los grupos de estilos que van a aplicarse a elementos particulares o grupos de elementos de la página web. Por ejemplo: «Quiero que el encabezado principal de mi página se muestre en letras grandes de color rojo».</p>
+        El código siguiente muestra una regla CSS muy simple que proporcionaría el estilo descrito en el párrafo anterior:
+        <p>"h1 {
+            color: red;
+            font-size: 5em;
+        }" </p>
+        <p>La regla se abre con un selector. Este selecciona el elemento HTML que vamos a diseñar. En este caso, diseñaremos encabezados de nivel uno "h1"</p>
+        <p>Luego tenemos un conjunto de llaves { }. Entre estas habrá una o más declaraciones, que tomarán la forma de pares de propiedad y valor. Cada par especifica cada una de las propiedades de los elementos seleccionados y el valor que queremos dar a esa propiedad.</p>
+        <p>Antes de los dos puntos, tenemos la propiedad; y después, el valor. Las propiedades CSS admiten diferentes valores, dependiendo de qué propiedad se esté especificando. En el ejemplo anterior, tenemos la propiedad color, que puede tomar varios valores de color. También tenemos la propiedad de font-size, que puede tomar varias unidades de tamaño como valor.</p>
+        <p>Una hoja de estilo CSS contendrá muchas de estas reglas, escritas una tras otra.</p>
+<h3>¿Cuáles son los tipos de selectores que puede utilizar CSS?</h3>
+<p>Hay diferentes agrupaciones de selectores, y conocer qué tipo de selector necesitas te ayudará a encontrar la herramienta adecuada para tu trabajo. En estos subartículos vamos a ver los diferentes grupos de selectores con más detalle.</p>
+<h4>Selectores de tipo, de clase y de ID</h4>
+<p>"h1 { }"</p>
+<p>".box { }"</p>
+<p>"#unique { }"</p>
+<h4>Selectores de atributo</h4>
+<p>"a[title] { }"</p>
+<p>"a[href="https://example.com"] { }"</p>
+<p>"a: hover {}"</p>
+<p>"p::first-line { }"</p>
+<h4>Combinadores</h4>
+<p>"article > p { }"</p>
+<h2>¿Qué es javascript? ¿Podrías definirlo como un lenguaje de programación? ¿De qué tipo?</h2>
+<p>JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado.</p>
+<h2>¿A qué se llama DOM y cual es su función?</h2>
+<p>Es esencialmente una interfaz de plataforma que proporciona un conjunto estándar de objetos para representar documentos HTML, XHTML y XML, un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos. A través del DOM, los programas pueden acceder y modificar el contenido, estructura y estilo de los documentos HTML y XML, que es para lo que se diseñó principalmente. </p>
+<h2>¿En qué puede ayudarnos javascript en una página web? </h2>
 </body>
 </html>
